@@ -30,9 +30,10 @@ export default function App() {
         </ul>
       </nav>
       <Switch>
-          <Route path="/" component={Home} />
-          <Route path="/shapes" component={Shapes} />
+      <Route path="/shapes" component={Shapes} />
           <Route path="/image" component={Image} />
+          <Route path="/" component={Home} />
+          
       </Switch>
       
     </div>
